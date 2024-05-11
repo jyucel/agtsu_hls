@@ -3,6 +3,7 @@
 *.tmp
 *.obj.*
 *prj_*
+* copy*
 
 # Prerequisites
 *.d
