@@ -1,3 +1,9 @@
+# HLS generated files
+*.prj
+*.tmp
+*.obj.*
+*prj_*
+
 # Prerequisites
 *.d
 
