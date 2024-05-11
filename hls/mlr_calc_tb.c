@@ -24,9 +24,11 @@ int main() {
         24.29623859987456,1.657108910650813,318.88886525770835,3  // Real value is 206
     };
 
+    ihc::mm_master<float, ihc::aspace<1>, ihc::awidth<32>, ihc::dwidth<32> > feature_tb(features);
     float result_tb;  // Declare result_tb
     mlr_tb(features_tb, &result_tb);  // Pass the address of result_tb to mlr_tb
     float predicted_sales = mlrc( features);
+    printf("featuresize is %f\n", (float)(4 * sizeof(float)));  // Output: featuresize is 16.000000
 
     printf("Predicted (float)    : Ice Cream Sales: %lf\n", result_tb); 
     printf("Predicted (component): Ice Cream Sales: %lf\n", predicted_sales);
