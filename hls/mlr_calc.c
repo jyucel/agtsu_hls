@@ -1,6 +1,6 @@
 /**
  * @file mlr2.c
- * @brief Implementation of the machine learning component for predicting ice cream sales using multiple linear regression.
+ * @Component for predicting ice cream sales using multiple linear regression.
  *
  * @details
  * This file contains the implementation of a machine learning component that predicts ice cream sales
@@ -28,7 +28,7 @@
 #define FEATURES_SIZE 4
 
 /**
- * @brief Predicts ice cream sales based on input features.
+ * @Ice cream sales based on input features.
  *
  * @details
  * This function computes the predicted ice cream sales using a multiple linear regression model.
