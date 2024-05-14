@@ -1,7 +1,7 @@
 
 /**
  * @file mlr2.h
- * @brief Header file for the machine learning component predicting ice cream sales using multiple linear regression.
+ * @Header file for the machine learning component predicting ice cream sales using multiple linear regression.
  *
  * @details
  * This header file declares the function for predicting ice cream sales based on four features:
@@ -31,7 +31,7 @@
 #endif
 
 /**
- * @brief Predicts ice cream sales based on input features.
+ * @Predicts ice cream sales based on input features.
  *
  * @details
  * This function uses multiple linear regression to predict ice cream sales. It accepts
